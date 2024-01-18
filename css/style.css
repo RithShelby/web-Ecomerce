@@ -1,6 +1,3 @@
-html{
-  overflow-x: hidden;
-}
 body{
     overflow-x: hidden;
 }
@@ -44,9 +41,11 @@ li:hover a{
 }
 .mobile_nav{
     display: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .mobile_nav_shop{
   display: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 /*image content style*/
 .border_text{
@@ -178,9 +177,11 @@ li:hover a{
 }
 .mobile_nav_product{
   display: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .mobile_nav_cart{
   display: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .table_Row_head td{
   font-size: 15px ;
@@ -199,6 +200,7 @@ li:hover a{
 /* Check out */
 .mobile_nav_checkout{
   display: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .img_animation {
   position: relative;
