@@ -4,27 +4,27 @@ const navbar = document.querySelector(".nav_bar ");
 btn.addEventListener("click", function () {
   navbar.classList.toggle("active");
 });
+// back to top
+// const btnToTop = document.querySelector(".back-to-top");
 
-const btnToTop = document.querySelector(".back-to-top");
+// window.onscroll = function () {
+//   scrollFunction();
+// };
 
-window.onscroll = function () {
-  scrollFunction();
-};
+// function scrollFunction() {
+//   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+//     btnToTop.style.display = "flex";
+//   } else {
+//     btnToTop.style.display = "none";
+//   }
+// }
 
-function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    btnToTop.style.display = "flex";
-  } else {
-    btnToTop.style.display = "none";
-  }
-}
+// btnToTop.addEventListener("click", backToTop);
 
-btnToTop.addEventListener("click", backToTop);
-
-function backToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+// function backToTop() {
+//   document.body.scrollTop = 0;
+//   document.documentElement.scrollTop = 0;
+// }
 // image scroll product sh
 const image_content = document.querySelectorAll(".img_big_product");
 const img_tab = document.querySelectorAll(".img_small_product");
