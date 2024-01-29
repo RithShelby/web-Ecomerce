@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    font-family: 'Saira Condensed', sans-serif;
 }
 *{
     box-sizing: border-box;
@@ -191,7 +192,7 @@ li:hover a{
 }
 .table_head th{
   height: 50px;
-  width: 400px;
+  width: 200px;
 }
 
 .qty-controls{
@@ -210,11 +211,11 @@ li:hover a{
   width: 80px;
 }
 @keyframes toLeft {
-  0%, 100% {
+  0%{
     left: 0;
   }
   50%{
-    left: 54%;
+    left: 50%;
   }
 }
 
